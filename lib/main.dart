@@ -5,6 +5,7 @@ void main()
 {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       routes: {
         "/":(context) => Counter_Scrren(),
       },
