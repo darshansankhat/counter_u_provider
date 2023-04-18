@@ -10,4 +10,34 @@ class CounterProvider extends ChangeNotifier
 
     notifyListeners();
   }
+  void Sub()
+  {
+    i--;
+
+    notifyListeners();
+  }
+  void Two_kk()
+  {
+    i*=2;
+
+    notifyListeners();
+  }
+  void Three_kk()
+  {
+    i*=3;
+
+    notifyListeners();
+  }
+  void Four_kk()
+  {
+    i*=4;
+
+    notifyListeners();
+  }
+  void Reset()
+  {
+    i=0;
+
+    notifyListeners();
+  }
 }
